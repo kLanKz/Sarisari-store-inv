@@ -1,0 +1,59 @@
+
+package sarisariwow;
+
+import java.util.Scanner;
+
+
+public class Sarisariwow {
+
+    
+    public static void main(String[] args) {
+       String Product;
+       int PC ;
+       int stock  ;
+       int ppr ;
+       String supplier;
+       int PED ;
+       int PST  ;
+       int DP  ;
+       int RTQ ;
+       String Loc;       
+        
+       Scanner scanner;
+       scanner = new Scanner(System.in);
+       
+        System.out.print("Enter a Product: ");
+        Product = scanner.nextLine();
+       
+        System.out.print("Enter a Product Code: ");
+        PC = scanner.nextInt();
+        
+        System.out.print("Enter a Quantity in stock: ");
+        stock= scanner.nextInt();
+
+        System.out.print("Enter a Product Price per unit: ");
+        ppr = scanner.nextInt();
+
+        System.out.print("Enter a Supplier Name: ");
+        supplier = scanner.nextLine();
+        scanner.nextLine();
+        
+        System.out.print("Enter the Product Expiration date: ");
+        PED = scanner.nextInt();
+
+        System.out.print("Enter the Number of products sold today : ");
+        PST = scanner.nextInt();
+        
+        System.out.print("Enter the discount persentage: ");
+        DP = scanner.nextInt();
+
+        System.out.print("Enter a Reoder threshold quanity: ");
+        RTQ = scanner.nextInt();
+
+        System.out.print("Enter the store location: ");
+        Loc =scanner.nextLine();
+        scanner.nextLine();
+
+    }
+    
+}
